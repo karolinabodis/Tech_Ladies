@@ -1,0 +1,10 @@
+/***  ||  Section: What We Do  ||  ***/
+#what .items .item {
+	display: flex;
+	text-align: left;
+}
+
+#what .items .item i {
+	align-self: center;
+	margin: 0 2rem 0 0;
+}

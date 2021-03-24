@@ -1,0 +1,76 @@
+/****  Tablet  ****/
+/******************/
+@media screen and (max-width: 768px) {
+	/***  ||  Section: What We Do  ||  ***/
+	#what .items {
+		display: block;
+	}
+
+	.items .item {
+		display: flex;
+		text-align: left;
+	}
+
+	.items .item i {
+		align-self: center;
+		margin: 0 2rem 0 0;
+	}
+
+	/***  ||  Section: Who We Are  ||  ***/
+	#who {
+		display: block;
+	}
+
+	#who .who__img {
+		height: 30vh;
+	}
+
+	/***  ||  Contact  ||  ***/
+	#contact .map {
+		flex: 1;
+	}
+}
+
+/****  Smartphone  ****/
+/**********************/
+@media (max-width: 500px) {
+	/***  ||  Navigation  ||  ***/
+	#navbar {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#navbar ul {
+		margin-top: 1rem;
+	}
+
+	/***  ||  Header: Showcase  ||  ***/
+	.showcase__content {
+		justify-content: flex-start;
+		padding-top: 15rem;
+	}
+
+	/***  ||  Section: What We Do  ||  ***/
+	#what .items .item {
+		padding: 2rem 0;
+	}
+
+	/***  ||  Section: Who We Are  ||  ***/
+	#who .who__img {
+		display: none;
+	}
+
+	/***  ||  Section: Where You Can Find Us  ||  ***/
+	.where .logos .logo {
+		width: 70%;
+	}
+
+	/***  ||  Contact  ||  ***/
+	#contact {
+		display: block;
+	}
+
+	#contact .map {
+		height: 25vh;
+	}
+}
